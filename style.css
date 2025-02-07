@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #11111b;
-    color: #cdd6f4;
+    background-color: #433878;
+    color: #FFE1FF;
     font-family: font;
     margin: 0;
     min-height: 100vh;
@@ -41,7 +41,7 @@ body {
 iframe {
     width: 500px;
     height: 500px;
-    border: 3px solid #b4befe;
+    border: 3px solid #E4B1F0;
     border-radius: 15px;   
 }
 
