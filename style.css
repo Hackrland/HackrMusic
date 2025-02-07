@@ -1,0 +1,51 @@
+@font-face {
+    font-family: font;
+    src: url(./font.ttf);
+}
+
+body {
+    background-color: #11111b;
+    color: #cdd6f4;
+    font-family: font;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    position: fixed;
+    top: 0;
+    left: 50%;
+
+}
+
+.music {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    grid-row-gap: 100px;
+}
+
+.music-block {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: normal;
+    align-items: normal;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #b4befe;
+    border-radius: 15px;   
+}
+
+.music-block h1 {
+    position: absolute;
+    margin-top: -50px;
+}
